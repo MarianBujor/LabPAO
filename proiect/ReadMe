@@ -1,0 +1,40 @@
+Activitate companie transporturi
+fiecare clasa contine set si get plus constructori fara param. dar si cu param.
+
+Angajati:
+    Structura angajati se concentreaza in principal pe clasa Soferi.
+    Fiecare Sofer este un angajat al companiei si are urmatoarele date:
+    - nume
+    - vechime
+    - salariu
+    - ID
+Masini:
+    Masinile sunt definite prin:
+    -disponibilitate (daca masina este in cursa atunci aceasta variabila de tip bool este 'false',
+    momentan toate sunt disponibile TODO: link masina-sofer prin disponibilitate)
+    - numar de inmatriculare
+    - consumul masinii (momentan string)
+    - marca masinii
+
+Rute:
+    - rutele sunt compuse din 2 obiecte de tip Oras (Plecare, Destinatie)
+    cursele reprezinta rutele preluate de catre masini:
+    cursele sunt caracterizate in sistem prin:
+    -distanta pe ruta cursei
+    -deadline(data pana la care trebuie livrat)
+    -status(status-ul livrarii (livrat,livrare, "-")
+Serivicii:
+
+1.Afiseaza toti soferii.
+2.Cauta sofer dupa ID(pus implicit in apel)".
+3.Adauga o masina noua(implicit din nou).
+4.Afiseaza masinile.
+5.Afiseaza masinile disponibile pentru transport.
+6.Ordoneaza si afiseaza masinile dupa tip".
+7.Afiseaza toate cursele.
+8.Afiseaza cursele livrate.
+9.Afiseaza cursele disponibile.
+10.Sorteaza cursele descrescator dupa distanta(presupun ca se afla un singur sediu al companie).
+
+Repository:
+Masini,Rute,Angajati - in fiecare repo am vectori cu obiecte din clasa fiecaruia
