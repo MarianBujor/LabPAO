@@ -1,0 +1,6 @@
+Update:
+- fisiere CSV pentru Soferi,Masini,Candidati si Rute
+- fisier CSV de tip audit ( actiune, data si ora exacta a actiunii efectuate)
+
+TODO:Relationarea mai intuitiva intre clasele Sofer-Masina-Cursa, in sensul ca fiecare Cursa are asignata o masina si
+fiecare masina are asignat un sofer. De aici rezulta si disponibilitatea masinii si statusul fiecarei curse.
